@@ -1,0 +1,82 @@
+.como-funciona {
+  padding: var(--section-pad);
+  background: var(--navy);
+}
+
+.como-funciona__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.como-funciona .section-eyebrow {
+  color: var(--gold);
+}
+
+.como-funciona .section-title {
+  color: var(--white);
+  margin-bottom: 64px;
+}
+
+.como-funciona__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  position: relative;
+}
+
+.paso {
+  position: relative;
+}
+
+.paso__numero {
+  font-family: var(--font-heading);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--gold);
+  opacity: 0.4;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.paso__linea {
+  display: none; /* visible on desktop via pseudo-element approach below */
+}
+
+.paso__titulo {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.paso__desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+
+/* Connector line between steps */
+.como-funciona__steps {
+  counter-reset: steps;
+}
+
+.paso:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: calc(100% + 8px);
+  width: calc(40px - 16px);
+  height: 1px;
+  background: rgba(201, 168, 76, 0.3);
+}
+
+@media (max-width: 768px) {
+  .como-funciona__steps {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .paso:not(:last-child)::after {
+    display: none;
+  }
+}

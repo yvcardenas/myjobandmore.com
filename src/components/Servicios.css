@@ -1,0 +1,96 @@
+.servicios {
+  padding: var(--section-pad);
+  background: var(--white);
+}
+
+.servicios__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Shared section header styles */
+.section-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  color: var(--navy);
+  margin-bottom: 60px;
+}
+
+.servicios__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+.servicios__col-header {
+  margin-bottom: 32px;
+}
+
+.servicios__col-header h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--navy);
+  margin-top: 12px;
+}
+
+.servicios__tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 100px;
+  background: rgba(15, 31, 61, 0.08);
+  color: var(--navy);
+}
+
+.servicios__tag--empresa {
+  background: rgba(201, 168, 76, 0.15);
+  color: #8a6b1a;
+}
+
+.servicios__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.servicios__card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.servicios__icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.servicios__card h4 {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.servicios__card p {
+  font-size: 0.9rem;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .servicios__grid {
+    grid-template-columns: 1fr;
+  }
+}
