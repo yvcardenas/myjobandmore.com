@@ -40,6 +40,14 @@
   margin-bottom: 12px;
 }
 
+.footer__contact p {
+  display: block;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 6px;
+  transition: color 0.2s;
+}
+
 .footer__contact a {
   display: block;
   font-size: 0.9rem;

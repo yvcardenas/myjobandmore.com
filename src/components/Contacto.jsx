@@ -34,7 +34,7 @@ export default function Contacto() {
     e.preventDefault() // prevents the page from refreshing
     setEnviando(true)
 
-    const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    const response = await fetch('https://formspree.io/f/xnjkdlkp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify(form),

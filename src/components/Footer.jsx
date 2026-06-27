@@ -17,8 +17,9 @@ export default function Footer() {
 
         <div className="footer__contact">
           <p className="footer__contact-label">Contáctanos</p>
-          <a href="tel:+10000000000">+1 (000) 000-0000</a>
-          <a href="mailto:info@myjobandmore.com">info@myjobandmore.com</a>
+          <p>Jesus Alfredo Cardenas Camacho | CEO</p>
+          <a href="tel:+17602148191">+1 (760) 214-8191</a>
+          <a href="mailto:jacc@myjobandmore.com">jacc@myjobandmore.com</a>
         </div>
       </div>
 
