@@ -1,8 +1,4 @@
 // App.jsx
-// This is the "root" component — it imports all the section components
-// and lays them out in order. Think of it as the skeleton of the page.
-// Each import pulls in both the JSX component and its CSS file.
-
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Servicios from './components/Servicios'

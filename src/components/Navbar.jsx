@@ -1,7 +1,4 @@
 // Navbar.jsx
-// This is a React "component" — a reusable piece of UI.
-// Components are just functions that return HTML-like code (called JSX).
-
 export default function Navbar() {
   return (
     <nav className="navbar">

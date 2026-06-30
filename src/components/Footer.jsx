@@ -1,6 +1,5 @@
 // Footer.jsx
-// Simple footer with the company name and a note about what they do.
-// Placeholders for contact info — your dad can fill these in.
+// Placeholders for contact info 
 
 export default function Footer() {
   const year = new Date().getFullYear()

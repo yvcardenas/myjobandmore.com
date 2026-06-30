@@ -1,12 +1,9 @@
 // Contacto.jsx
-// The contact form. This is where React state comes in for the first time.
+// The contact form
 //
 // useState is how React remembers things between renders.
-// Every time you type in a field, we update the state, and React re-renders
-// just that part of the page automatically.
-//
-// The form currently uses a placeholder action. In the next step we'll
-// connect it to Formspree so submissions go to your dad's email.
+// Every time you type in a field, we update the state, and React re-renders just that part of the page automatically.
+// Uses formspree.io to handle form submissions
 
 import { useState } from 'react'
 

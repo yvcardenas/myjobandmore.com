@@ -1,6 +1,6 @@
 // Servicios.jsx
 // Two-column layout — one side for job seekers, one for companies.
-// We use an array of objects to define the service cards. This is a common
+// Use an array of objects to define the service cards. This is a common
 // React pattern: store data in JS, then use .map() to render it as HTML.
 
 const candidatoServicios = [

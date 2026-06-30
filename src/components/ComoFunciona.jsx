@@ -1,6 +1,4 @@
 // ComoFunciona.jsx
-// A simple 3-step process section. Shows customers how easy it is to get started.
-// The steps array uses the same .map() pattern as Servicios — data first, render second.
 
 const pasos = [
   {

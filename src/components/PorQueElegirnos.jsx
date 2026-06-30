@@ -1,7 +1,4 @@
 // PorQueElegirnos.jsx
-// Trust-building section. Highlights what makes this service different.
-// Your dad has a lot of experience, so we lead with that.
-
 const razones = [
   {
     titulo: 'Años de experiencia',

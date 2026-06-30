@@ -1,7 +1,4 @@
 // Hero.jsx
-// The first thing visitors see. Big headline, a tagline, and two call-to-action buttons.
-// One for job seekers, one for companies. This sets the tone for the whole site.
-
 export default function Hero() {
   return (
     <section id="inicio" className="hero">
